@@ -1,6 +1,16 @@
 /*******************
  * YOUR CODE HERE! *
  *******************/
+function yell(str){
+  let exclaim= "!"
+
+  return str +exclaim
+    }
+
+function getFirstCharacter(str){
+  return str[0]
+}
+
 
 
 
