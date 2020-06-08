@@ -28,8 +28,14 @@ function makeCapitalized(str){
 return str.toUpperCase()
 }
 
+function yellLouder(str){
+  let exclaimed= "!!!"
+  return str.toUpperCase()+exclaimed
+}
 
-
+function getInitials(str){
+  return str[0] + "." + str[str.indexOf(" ")] + "."
+}
 
 /********************************************************************
  * THIS CODE IS FOR INTERNAL USE ONLY. DON'T CHANGE ANYTHING BELOW! *
