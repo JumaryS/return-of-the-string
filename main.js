@@ -16,10 +16,11 @@ function getLastCharacter(str){
   return str[str.length -1]
 }
 
-function getOneCharacter(){
-  
+function getOneCharacter(str, index){
+ return str[index]
 }
 
+function
 
 
 
