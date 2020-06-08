@@ -20,8 +20,13 @@ function getOneCharacter(str, index){
  return str[index]
 }
 
-function
+function getTwoCharacters(str1,index1,index2){
+  return str1[index1] + str1[index2]
+}
 
+function makeCapitalized(str){
+return str.toUpperCase()
+}
 
 
 
