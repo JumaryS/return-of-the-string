@@ -34,7 +34,7 @@ function yellLouder(str){
 }
 
 function getInitials(str){
-  return str[0] + "." + str[str.indexOf(" ")] + "."
+  return str[0] + "." + str[str.indexOf(" ") +1] + "."
 }
 
 /********************************************************************
